@@ -12,7 +12,7 @@ This is our PID tuner graph in VexCode that allows us to visualize the values of
 
 ## Dependencies
 * [Python 3.7.4](https://www.python.org/downloads)
-* Tkinter(pre-installed with Python)
+* Tkinter (pre-installed with Python)
 * [Openpyxl](https://pypi.org/project/openpyxl/)
 
 
