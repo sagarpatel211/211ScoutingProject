@@ -145,26 +145,24 @@ class Team:
 #---------- TEAMS -------------#
 team2381Z = Team ("2381Z",[],[],[],[],[],[],[],[],[],[],[],None,None,None)
 team839Z = Team ("839Z",[],[],[],[],[],[],[],[],[],[],[],None,None,None)
+
+#-- TKINTER DISPLAY FUNCTION --#
+def display (teamname):
+    window = Tk()
+    window.title('SCOUTING')
+    window.geometry("400x600+0+0")
+    window.resizable(False, False)
+    teamname.display()
+    teamname.submitscoutinginfo()
+    window.mainloop()
 #--------- MATCHES ------------#
 #1 - 2381Z
 team2381Z.display()
 team2381Z.submitscoutinginfo()
 window.mainloop()
+
 #2 - 839Z
-window = Tk()
-window.title('SCOUTING')
-window.geometry("400x600+0+0")
-window.resizable(False, False)
-team839Z.display()
-team839Z.submitscoutinginfo()
-window.mainloop()
+display(team839Z)
+
 #3 - 2381Z
-window = Tk()
-window.title('SCOUTING')
-window.geometry("400x600+0+0")
-window.resizable(False, False)
-team2381Z.display()
-team2381Z.submitscoutinginfo()
-window.mainloop()
-
-
+display(team2381Z)
