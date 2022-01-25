@@ -1,5 +1,5 @@
-# 211ZPIDTuner
-This is our PID tuner graph in VexCode that allows us to visualize the values of the motor to see if the PID is working correctly and is tuned perfectly. It can also be used for anything in VexCode that returns a value (eg. motor temperatures).
+# 211 Scouting Project (Prototype!!)
+This is our (untested) scouting system for Team 211 in VEX competitions used for collecting data on robots and to aid selection in Round of 16.
 
 
 ## Table of Contents
