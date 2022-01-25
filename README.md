@@ -12,7 +12,7 @@ This is our (untested) scouting system for Team 211 in VEX competitions used for
 
 ## Dependencies
 * [Python 3.7.4](https://www.python.org/downloads)
-* Tkinter (pre-installed with Python)
+* [Tkinter](https://docs.python.org/3/library/tkinter.html) (pre-installed with Python)
 * [Openpyxl](https://pypi.org/project/openpyxl/)
 
 
