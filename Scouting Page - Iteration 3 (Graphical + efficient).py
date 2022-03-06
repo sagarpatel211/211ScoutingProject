@@ -143,7 +143,6 @@ class Team:
             self.ws["K" + str(self.rowvalue)] = str(item)
         self.wb.save(self.filename)
 #---------- TEAMS -------------#
-team2381Z = Team ("2381Z",[],[],[],[],[],[],[],[],[],[],[],None,None,None)
 team839Z = Team ("839Z",[],[],[],[],[],[],[],[],[],[],[],None,None,None)
 
 #-- TKINTER DISPLAY FUNCTION --#
